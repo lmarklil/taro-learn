@@ -1,0 +1,25 @@
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.card {
+  &-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+
+    &-avatar {
+      margin-bottom: 20px;
+      width: 150px;
+      height: 150px;
+      background: #ddd;
+      border-radius: 50%;
+    }
+
+    &-name {
+      font-size: 32px;
+      font-weight: bold;
+    }
+  }
+}

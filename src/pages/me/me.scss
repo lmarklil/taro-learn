@@ -1,0 +1,28 @@
+@import "~taro-ui/dist/style/components/list.scss";
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.me {
+  &-header {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    height: 300px;
+    background: #ffa94d;
+
+    &-avatar {
+      margin-right: 20px;
+      width: 120px;
+      height: 120px;
+      background: #fff;
+      border-radius: 50%;
+    }
+
+    &-name {
+      font-size: 36px;
+    }
+  }
+
+  &-list {
+    margin-bottom: 20px;
+  }
+}

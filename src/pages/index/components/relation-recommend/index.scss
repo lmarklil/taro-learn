@@ -1,0 +1,26 @@
+@import "~taro-ui/dist/style/components/icon.scss";
+
+.relation_recommend {
+  &-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 120px;
+    font-size: 32px;
+
+    &-title {
+      font-weight: bold;
+    }
+
+    &-action {
+      color: #999;
+      font-size: 28px;
+    }
+  }
+
+  &-content {
+    padding: 0 40px;
+    white-space: nowrap;
+  }
+}

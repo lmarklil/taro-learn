@@ -1,0 +1,35 @@
+.people {
+  display: flex;
+  align-items: center;
+  padding: 0 40px;
+  height: 160px;
+  border-bottom: 1px #ccc solid;
+
+  &-avatar {
+    margin-right: 20px;
+    width: 88px;
+    height: 88px;
+    background: #ddd;
+    border-radius: 50%;
+  }
+
+  &-info {
+    &-name {
+      margin-bottom: 10px;
+      font-size: 28px;
+    }
+
+    &-work {
+      color: #666;
+      font-size: 22px;
+
+      &-divider {
+        margin: 0 10px;
+
+        &::before {
+          content: "|";
+        }
+      }
+    }
+  }
+}
